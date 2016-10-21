@@ -1,0 +1,7 @@
+include ':app'
+// freeline
+includeFlat 'runtime'
+include ':runtime:runtime'
+include ':runtime:runtime-no-op'
+include ':ThirdParty:share', ':pure_java'
+include ':ThirdParty:payment', ':resources', ':common'
